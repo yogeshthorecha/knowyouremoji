@@ -15,7 +15,7 @@ const emojis = {
   "😢": "crying",
   "😘": "flyingkiss"
 };
-var emojiWeKnow = ["😍", "✌", "🌹", "🤞", "😎", "👀"];
+var emojiWeKnow = ["😍", "✌", "🌹", "🤞", "😎", "👀","😊","😂","❤","😉"];
 export default function App() {
   var [meaning, setMeaning] = useState("");
   function onChangeHandler(event) {
